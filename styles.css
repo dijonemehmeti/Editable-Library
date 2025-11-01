@@ -1,0 +1,74 @@
+/*
+  styles.css
+  Dijone Mehmeti
+  Style sheet for the editable book library
+  Created: March 2024
+  Updated: March 2024
+*/
+
+
+body {
+  font-family: Arial, sans-serif; /* Default font family*/
+  background-color: #f4f4f4; /* Background color of body */
+}
+
+header {
+  background-color: #007bff; /* Background color of header */
+  color: #fff; /* Text color of header */
+  padding: 10px 0; /* Adding padding to header */
+  text-align: center; /* Centering text of header */
+}
+
+.title {
+  margin: 0; /* Resets margin for title */
+}
+
+.container {
+  max-width: 800px; /* Maximum width of container */
+  margin: 20px auto; /* Centering container */
+  padding: 20px; /* Adding padding */
+  background-color: #fff; /* Background color of container */
+  border-radius: 8px; /* Adding rounded corners*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+}
+
+.button {
+  background-color: #007bff; /* Background color for button */
+  color: #fff; /* Text color for button */
+  border: none; /* Removeing border from button */
+  padding: 10px 20px; /* Adding padding*/
+  cursor: pointer; /* Changeing cursor to pointer on hover */
+  border-radius: 4px; /* Adding rounded corners */
+  margin-bottom: 10px; /* Adding margin */
+  display: block; /* Making button block element */
+  width: 100%; /* Adding full width */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Changeing background color on hover */
+}
+
+.book {
+  border: 1px solid #ddd; /* Adding border to book */
+  padding: 10px; /* Adding padding */
+  border-radius: 4px; /* Adding rounded corners */
+  margin-bottom: 10px; /* Adding margin*/
+}
+
+.book input {
+  width: calc(100% - 20px); /* Width of input field */
+  padding: 5px; /* Adding padding */
+  margin-bottom: 5px; /* Adding margin */
+}
+
+.book img {
+  max-width: 100px; /* Maximum width of image */
+  height: auto; /* Adjusting height */
+  display: block; /* Makeing image block element */
+  margin: 0 auto; /* Centering image */
+}
+
+.book:hover {
+  background-color: #f0f0f0; /* Changing background color on hover */
+  cursor: pointer; /* Changing cursor to pointer on hover */
+}
